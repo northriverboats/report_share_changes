@@ -1,0 +1,4 @@
+click==8.0.1
+emailer @ git+https://github.com/northriverboats/emailer.git
+pyinstaller==4.5.1
+python-dotenv==0.19.0
