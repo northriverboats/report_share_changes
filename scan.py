@@ -39,7 +39,7 @@ def readtoday():
   mylist.sort()
   dirlist = []
   for item in mylist:
-    if os.path.isdir(os.environ.get('FOLDER')+item):
+    if os.path.isdir(os.environ.get('FOLDER')+'/'+item):
       dirlist.append(item)
 
   return dirlist
